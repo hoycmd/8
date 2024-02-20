@@ -1,43 +1,25 @@
 {
-  "Name": "<color=red>ТДМ|ТЕСТ РЕЖИМ</a>",
-  "Description": "Team Death Match. БИТВА СИНИХ И КРАСНЫХ",
-  "StartClientVersion": 334,
-  "MapFilter": {
-    "IsBlank": false,
-    "HasParcourEnd": false
-  },
-  "MapLists": [
-    {
-      "MapListId": 324,
-      "Name": "Официальные карты"
-    },
-    {
-      "MapListId": 581
-    }
-  ],
-  "Parameters": {
-    "Bool": [
+    "Name": "<color=orange>РЕДАКТОР|Но с изменённым дизайном|</a>",
+    "Description": "Редактор карт. <color=red>Создавай свои карты в одиночку или с друзьями =)</a>",
+    "StartClientVersion": 334,
+    "MapLists": [
       {
-        "Name": "MapRotation",
-        "DisplayName": "GmParams/MapRotation",
-        "Default": true
-      },
-      {
-        "Name": "OnlyKnives",
-        "DisplayName": "GmParams/OnlyKnives"
-      },
-      {
-        "Name": "PartialDesruction",
-        "DisplayName": "GmParams/PartialDesruction"
-      },
-      {
-        "Name": "LoosenBlocks",
-        "DisplayName": "GmParams/LoosenBlocks"
-      },
-      {
-        "Name": "FriendlyFire",
-        "DisplayName": "GmParams/FriendlyFire"
+        "MapListId": 8401,
+        "Name": "<color=red>ЗАГОТОВКИ ДЛЯ СОЗДАНИЯ КАРТ</a>"
       }
-    ]
-  }
+    ],
+    "Parameters": {
+      "Bool": [
+        {
+          "Name": "RedTeam",
+          "DisplayName": "Teams/Red",
+          "Default": true
+        },
+        {
+          "Name": "BlueTeam",
+          "DisplayName": "Teams/Blue",
+          "Default": true
+        }
+      ]
+    }
 }

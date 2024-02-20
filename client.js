@@ -63,7 +63,7 @@ roomInventory.Build.Value = true;
 roomInventory.BuildInfinity.Value = true;
 
 // моментальный спавн
-Spawns.GetContext().RespawnTime.Value = 0;
+Spawns.GetContext().RespawnTime.Value = 1;
  
  
 	

@@ -37,12 +37,12 @@ Properties.GetContext().GameModeName.Value = "GameModes/EDITOR";
 red = GameMode.Parameters.GetBool("RedTeam");
 blue = GameMode.Parameters.GetBool("BlueTeam");
 if (red || !red && !blue) {
-	Teams.Add("Red", "Teams/Red", { r: 1 });
-	Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
+	Teams.Add("СТРОИТЕЛИ|КРАСНЫЕ", "Teams/Red", { r: 2 });
+	Teams.Get("СТРОИТЕЛИ|КРАСНЫЕ").Spawns.SpawnPointsGroups.Add(2);
 }
 if (blue || !red && !blue) {
-	Teams.Add("Blue", "Teams/Blue", { b: 1 });
-	Teams.Get("Blue").Spawns.SpawnPointsGroups.Add(1);
+	Teams.Add("СТРОИТЕЛИ|СИНИЕ", "Teams/Blue", { b: 3 });
+	Teams.Get("СТРОИТЕЛИ|СИНИЕ").Spawns.SpawnPointsGroups.Add(3);
 }
 
 // разрешаем вход в команды по запросу

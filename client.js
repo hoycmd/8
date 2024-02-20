@@ -103,7 +103,5 @@ player.Build.ChangeSpawnsEnable.Value = true;
 player.Build.BuildRangeEnable.Value = true;
 	
 player.Ui.Hint.Value = "ТЫ ПОЛУЧИЛ АДМИНКУ"
-}
-  }
-     )
+
 

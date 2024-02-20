@@ -68,3 +68,4 @@ Spawns.GetContext().RespawnTime.Value = 0;
 
 
 
+player.contextedProperties.SkinType.Value = 2;

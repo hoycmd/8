@@ -1,10 +1,10 @@
 {
-  "Name": "<color=red>TDM|С БЕСК ХП(ТЕСТ)</a>",
-  "Description": "Team Death Match. "БИТВА СИНИХ И КРАСНЫХ",
+  "Name": "<color=red>ТДМ|ТЕСТ РЕЖИМ</a>",
+  "Description": "Team Death Match. БИТВА СИНИХ И КРАСНЫХ",
   "StartClientVersion": 334,
   "MapFilter": {
-    "IsBlank": true,
-    "HasParcourEnd": true
+    "IsBlank": false,
+    "HasParcourEnd": false
   },
   "MapLists": [
     {

@@ -66,13 +66,7 @@ roomInventory.BuildInfinity.Value = true;
 Spawns.GetContext().RespawnTime.Value = 0;
 
 
-
-
  player.contextedProperties.SkinType.Value = 2;
-var adm = AreaPlayerTriggerService.Get("adm"); 
-adm.Tags = ["adm"];  
-adm.Enable = true;  
-adm.OnEnter.Add(function(player) {  
  player.inventory.Main.Value = true;  
  player.inventory.MainInfinity.Value = true;  
  player.inventory.Secondary.Value = true;   
@@ -102,6 +96,6 @@ player.Build.LoadMapEnable.Value = true;
 player.Build.ChangeSpawnsEnable.Value = true;      
 player.Build.BuildRangeEnable.Value = true;
 	
-player.Ui.Hint.Value = "ТЫ ПОЛУЧИЛ АДМИНКУ"
+
 
 

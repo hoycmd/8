@@ -28,8 +28,8 @@ Build.GetContext().LoadMapEnable.Value = true;
 Build.GetContext().ChangeSpawnsEnable.Value = true;
 Build.GetContext().BuildRangeEnable.Value = true;
 
-// запрет нанесения урона
-Damage.GetContext().DamageOut.Value = false;
+// нанесения урона
+Damage.GetContext().DamageOut.Value = true;
 
 // параметры игры
 Properties.GetContext().GameModeName.Value = "GameModes/EDITOR";

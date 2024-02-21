@@ -65,7 +65,7 @@ roomInventory.BuildInfinity.Value = true;
 // моментальный спавн
 Spawns.GetContext().RespawnTime.Value = 1;
 
-// разрешаем  бесконечные патроны
+// var roomInventory = Inventory.GetContext();
 inventory.player.Unlimited.Secondary.Value = true;
 inventory.player.Unlimited.Explosive.Value = true;
 inventory.player.Unlimited.Basic.Value = true;

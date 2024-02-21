@@ -65,14 +65,10 @@ roomInventory.BuildInfinity.Value = true;
 // моментальный спавн
 Spawns.GetContext().RespawnTime.Value = 1;
 
-
-//задаем скин зека
-player.contextedProperties.SkinType.Value = 2;
-
-//задаем бесконечные патроны
-inventory.player.Unlimited.Secondary.value = true;
-inventory.player.Unlimited.Explosive.value = true;
-inventory.player.Unlimited.Basic.value = true;
+// разрешаем  бесконечные патроны
+inventory.player.Unlimited.Secondary.Value = true;
+inventory.player.Unlimited.Explosive.Value = true;
+inventory.player.Unlimited.Basic.Value = true;
 
 
  
